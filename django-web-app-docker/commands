@@ -1,0 +1,17 @@
+Commands TO RUN:
+
+1.  docker-compose run web django-admin.py startproject tushar-web .
+2. Edit the tushar-web/settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
+    }
+}
+3. docker-compose up
+
+* To check docker running process
+docker ps
