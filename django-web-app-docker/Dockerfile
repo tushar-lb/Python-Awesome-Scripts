@@ -3,3 +3,4 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install django
 RUN pip install flask
 RUN pip install numpy
+RUN pip install nltk
